@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background: #3C3C3C;
+  color: white;
+  text-align: center ;
+  font-size: 15pt;
+  display: grid;
+  place-items: center;
+}
+.container {
+width: 50%;
+padding: 10px;
+}
+h1 {
+  color: #72E248;
+  margin : 20px 0 40px 0;
+}
+span {
+  color:#434343;
+}
+span:hover {
+  transition: .3s;
+  color:#018DC1;
+}
+.form-group {
+  gap: 10px;
+  display: flex;
+}
+input {
+  outline:none;
+  border:none;
+  width:100%;
+  padding: 10px;
+}
+.form-group button {
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  background:#65B448;
+  transition: .3s;
+}
+.form-group button:hover {
+  background:#589740;
+  transition: .3s;
+}
+.textarea {
+    position: relative;
+}
+textarea {
+  border-radius: 5px;
+  margin-bottom:7px;
+  width:100%;
+  background: #FFFFFF;
+  padding: 10px;
+  outline: none;
+  resize: none;
+}
+.btn {
+  display:flex;
+  gap: 5px;
+  position: absolute;
+  bottom: 20px;
+  right: 5px;
+}
+#txt {
+  font-size: 12px;
+}
+footer {
+  margin-top: 20em;
+  font-size: 12px;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
